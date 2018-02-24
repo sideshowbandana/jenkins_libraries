@@ -1,3 +1,5 @@
+#!/usr/bin/env groovy
+
 def abortPreviousRunningBuilds() {
     def hi = Hudson.instance
     def pname = env.JOB_NAME.split('/')[0]
